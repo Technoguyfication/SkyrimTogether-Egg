@@ -1,0 +1,11 @@
+FROM tiltedphoques/st-reborn-server:latest as base
+
+FROM ubuntu:18.04 as final
+
+COPY --from=base /home/server/libSTServer.so /home/server/libSTServer.so
+COPY --from=base /home/server/SkyrimTogetherServer /home/server/SkyrimTogetherServer
+COPY --from=base /home/server/crashpad_handler /home/server/crashpad_handler
+COPY --from=base /home/server/libSTServer.debug /home/server/libSTServer.debug
+COPY --from=base /home/server/SkyrimTogetherServer.debug /home/server/SkyrimTogetherServer.debug
+WORKDIR /home/server
+ENTRYPOINT ["/bin/bash"]
