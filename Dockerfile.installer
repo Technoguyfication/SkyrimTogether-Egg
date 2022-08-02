@@ -1,6 +1,6 @@
 FROM tiltedphoques/st-reborn-server:latest as base
 
-FROM ubuntu:18.04 as final
+FROM alpine:latest as final
 
 COPY --from=base /home/server/libSTServer.so /home/server/libSTServer.so
 COPY --from=base /home/server/SkyrimTogetherServer /home/server/SkyrimTogetherServer
