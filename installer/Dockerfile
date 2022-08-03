@@ -2,8 +2,8 @@ FROM tiltedphoques/st-reborn-server:latest as base
 
 FROM alpine:latest as final
 
-COPY --from=base /usr/local/lib64/libstdc++.so.6.0.30 /lib/x86_64-linux-gnu/libstdc++.so.6
-COPY --from=base /usr/local/lib64/libstdc++.so.6.0.30 /lib/aarch64-linux-gnu/libstdc++.so.6
+# COPY --from=base /lib/x86_64-linux-gnu/libstdc++.so.6 /lib/x86_64-linux-gnu/libstdc++.so.6
+# COPY --from=base /lib/x86_64-linux-gnu/libstdc++.so.6 /lib/aarch64-linux-gnu/libstdc++.so.6
 
 COPY --from=base /home/server/libSTServer.so /home/server/libSTServer.so
 COPY --from=base /home/server/SkyrimTogetherServer /home/server/SkyrimTogetherServer
