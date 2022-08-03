@@ -2,7 +2,7 @@ FROM tiltedphoques/st-reborn-server:latest as base
 
 FROM alpine:latest as final
 
-# COPY --from=base /lib/x86_64-linux-gnu/libstdc++.so.6 /lib/x86_64-linux-gnu/libstdc++.so.6
+COPY --from=base /lib/x86_64-linux-gnu/libstdc++.so.6 /home/server/libstdc++.so.6
 # COPY --from=base /lib/x86_64-linux-gnu/libstdc++.so.6 /lib/aarch64-linux-gnu/libstdc++.so.6
 
 COPY --from=base /home/server/libSTServer.so /home/server/libSTServer.so
