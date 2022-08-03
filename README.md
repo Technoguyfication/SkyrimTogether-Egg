@@ -19,6 +19,7 @@ This is a Pterodactyl Egg for the multiplayer Skyrim mod [Skyrim Together](https
 
 ## Links:
 
+- [Pterodactyl Panel](https://pterodactyl.io/)
 - [SkyrimTogether Website](https://skyrim-together.com/)
 - [Mod Github](https://github.com/tiltedphoques/TiltedEvolution)
 - [NexusMods Page](https://www.nexusmods.com/skyrimspecialedition/mods/69993)
