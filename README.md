@@ -17,6 +17,13 @@ This is a Pterodactyl Egg for the multiplayer Skyrim mod [Skyrim Together](https
 - Due to technical limitations, the Egg only installs the latest version of the mod. This Egg would require significant changes to support older versions.
 - This Egg ONLY works on x86_64 platforms. I'm aware the mod supports ARM64, but this Egg does not.
 
+## Links:
+
+- [SkyrimTogether Website](https://skyrim-together.com/)
+- [Mod Github](https://github.com/tiltedphoques/TiltedEvolution)
+- [NexusMods Page](https://www.nexusmods.com/skyrimspecialedition/mods/69993)
+- [Mod Wiki](https://wiki.tiltedphoques.com/tilted-online/)
+
 ## Warning and Disclaimer
 
 The SkyrimTogether developer team [does not](https://discord.com/channels/247835175860305931/247844509726015488/823697815939186699) allow anyone to host servers running their mod for profit. Consider this Egg ONLY to be used to host your own not-for-profit servers. Please do not sell servers using this Egg and be the reason this project gets taken down.
