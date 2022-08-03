@@ -15,6 +15,7 @@ This is a Pterodactyl Egg for the multiplayer Skyrim mod [Skyrim Together](https
 
 - To update an existing server to the latest version, use the "Reinstall server" function from within the panel.
 - Due to technical limitations, the Egg only installs the latest version of the mod. This Egg would require significant changes to support older versions.
+- This Egg ONLY works on x86_64 platforms. I'm aware the mod supports ARM64, but this Egg does not.
 
 ## Warning and Disclaimer
 
