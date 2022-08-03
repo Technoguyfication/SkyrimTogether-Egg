@@ -19,6 +19,6 @@ This is a Pterodactyl Egg for the multiplayer Skyrim mod [Skyrim Together](https
 
 ## Warning and Disclaimer
 
-The SkyrimTogether developer team [does not](https://discord.com/channels/247835175860305931/247844509726015488/823697815939186699) allow anyone to host servers running their mod for profit. Consider this Egg as ONLY for use to host your own not-for-profit servers. Please do not sell servers using this Egg and be the reason this project gets taken down.
+The SkyrimTogether developer team [does not](https://discord.com/channels/247835175860305931/247844509726015488/823697815939186699) allow anyone to host servers running their mod for profit. Consider this Egg ONLY to be used to host your own not-for-profit servers. Please do not sell servers using this Egg and be the reason this project gets taken down.
 
 ![](https://user-images.githubusercontent.com/45578026/112071776-9e436580-8bc4-11eb-9162-c26b3903ec1d.png)
