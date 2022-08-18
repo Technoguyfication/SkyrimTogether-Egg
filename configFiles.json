@@ -8,7 +8,7 @@
 
 			"Gameplay.fGoldLossFactor": "{{server.build.env.CFG_GAME_GOLD_LOSS_FACTOR}}",			
 			"Gameplay.bEnableXpSync": "{{server.build.env.CFG_GAME_XP_SYNC}}",
-			"Gameplay.bEnablePvp": "{{server.build.env.CFG_GAME_ENALBE_PVP}}",
+			"Gameplay.bEnablePvp": "{{server.build.env.CFG_GAME_ENABLE_PVP}}",
 			"Gameplay.bEnableGreetings": "{{server.build.env.CFG_GAME_ENABLE_GREETINGS}}",
 			"Gameplay.uDifficulty": "{{server.build.env.CFG_GAME_DIFFICULTY}}",
 
